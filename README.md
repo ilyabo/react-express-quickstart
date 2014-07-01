@@ -1,10 +1,10 @@
 # react-quickstart
 
+Based on [react-quickstart][]
+
 A minimal React project template which combines:
 
   * [react-router-component][] to provide HTML5 History routing and navigation
-
-  * [react-async][] to create "asynchronous" React components
 
   * [express][] to serve pre-rendered React components, assets and provide API
 
@@ -12,10 +12,6 @@ A minimal React project template which combines:
 
   * [npm][] to install and manage server-side and client-side dependencies
 
-Every "page" in the application is **pre-rendered on server** so the user can
-see the UI before the client code is shipped to a browser. After that
-application starts functioning like a **single page application**, navigating
-between "pages" without reloads.
 
 ## Project structure
 
@@ -60,8 +56,8 @@ which will produce `assets/bundle.js` build, then:
 to start server in "production" mode (no source code watching and serving
 optimized bundle to browser).
 
+[react-quickstart]: https://github.com/andreypopp/react-quickstart
 [react-router-component]: http://andreypopp.viewdocs.io/react-router-component
-[react-async]: http://andreypopp.viewdocs.io/react-async
 [express]: expressjs.com
 [npm]: https://www.npmjs.org/
 [browserify]: http://browserify.org/
